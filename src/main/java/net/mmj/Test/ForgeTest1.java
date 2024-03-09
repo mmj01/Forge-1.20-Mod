@@ -12,42 +12,40 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.mmj.Test.item.ModCreativeModeTabs;
+import net.mmj.Test.item.moditems;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(ForgeTest1.MOD_ID)
-public class ForgeTest1
-{
-    // Define mod id in a common place for everything to reference
+public class ForgeTest1 {
     public static final String MOD_ID = "ftest1";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ForgeTest1()
-    {
+    public ForgeTest1() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModeTabs.register(modEventBus);
 
 
+        moditems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(moditems.ruby);
+            event.accept(moditems.raw_ruby);
+        }
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
+    public void onServerStarting(ServerStartingEvent event) {
 
     }
 
