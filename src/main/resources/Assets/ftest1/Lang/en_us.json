@@ -1,7 +1,12 @@
 {
-  "item.ftest1.ruby": "Ruby",
-  "item.ftest1.raw_ruby": "Raw Ruby",
+  "item.ftest1.titanium": "Titanium",
+  "item.ftest1.raw_titanium": "Raw Titanium",
+
+
+  "block.ftest1.titanium_block": "Titanium Block",
 
 
   "creativetab.modded_tab": "Modded Creative Tab"
+
+
 }

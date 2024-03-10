@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.mmj.Test.block.ModBlocks;
 import net.mmj.Test.item.ModCreativeModeTabs;
 import net.mmj.Test.item.moditems;
 import org.slf4j.Logger;
@@ -28,6 +29,8 @@ public class ForgeTest1 {
 
 
         moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -39,8 +42,8 @@ public class ForgeTest1 {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(moditems.ruby);
-            event.accept(moditems.raw_ruby);
+            event.accept(moditems.titanium);
+            event.accept(moditems.raw_titanium);
         }
     }
 
