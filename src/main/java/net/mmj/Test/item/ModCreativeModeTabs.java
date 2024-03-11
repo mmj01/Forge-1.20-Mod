@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                 output.accept(moditems.titanium.get());
                 output.accept(moditems.raw_titanium.get());
                 output.accept(ModBlocks.TITANIUM_BLOCK.get());
+                output.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
 
             })
             .build());

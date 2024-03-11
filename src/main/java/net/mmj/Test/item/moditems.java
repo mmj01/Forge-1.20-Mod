@@ -14,6 +14,8 @@ public class moditems {
     public static final RegistryObject<Item> titanium = ITEMS.register("titanium",() -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> raw_titanium = ITEMS.register("raw_titanium",() -> new Item(new Item.Properties()));
 
+
+
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);
 

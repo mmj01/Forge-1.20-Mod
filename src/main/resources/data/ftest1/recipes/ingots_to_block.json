@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+  "#": {"item": "ftest1:titanium"}
+  },
+
+  "result": {
+    "item": "ftest1:titanium_block",
+    "count": 1
+  }
+}
