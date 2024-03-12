@@ -14,14 +14,18 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB,  ForgeTest1.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> Modded_TAB = CREATIVE_MODE_TAB.register("modded_tab", () -> CreativeModeTab.builder().icon(() ->
-                    new ItemStack(moditems.titanium.get()))
+                    new ItemStack(moditems.RAW_TITANIUM.get()))
             .title(Component.translatable("creativetab.modded_tab"))
             .displayItems((itemDisplayParameters, output) -> {
-                output.accept(moditems.titanium.get());
-                output.accept(moditems.raw_titanium.get());
+                output.accept(moditems.TITANIUM_INGOT.get());
+                output.accept(moditems.RAW_TITANIUM.get());
                 output.accept(ModBlocks.TITANIUM_BLOCK.get());
                 output.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
-
+                output.accept(ModBlocks.TITANIUM_ORE.get());
+                output.accept(ModBlocks.NETHERRACK_TITANIUM_ORE.get());
+                output.accept(ModBlocks.END_STONE_TITANIUM_ORE.get());
+                output.accept(ModBlocks.DENSE_TITANIUM.get());
+                output.accept(moditems.HARDENED_TITANIUM_INGOT.get());
             })
             .build());
 

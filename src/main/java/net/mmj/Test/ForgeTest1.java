@@ -42,8 +42,8 @@ public class ForgeTest1 {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(moditems.titanium);
-            event.accept(moditems.raw_titanium);
+            event.accept(moditems.TITANIUM_INGOT);
+            event.accept(moditems.RAW_TITANIUM);
         }
     }
 

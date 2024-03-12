@@ -11,8 +11,10 @@ public class moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ForgeTest1.MOD_ID);
 
-    public static final RegistryObject<Item> titanium = ITEMS.register("titanium",() -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> raw_titanium = ITEMS.register("raw_titanium",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",() -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> HARDENED_TITANIUM_INGOT = ITEMS.register("hardened_titanium_ingot",() -> new Item(new Item.Properties()));
 
 
 

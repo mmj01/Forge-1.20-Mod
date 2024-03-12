@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 8500,
+  "experience": 8,
+  "group": "titanium",
+  "ingredient": {
+    "item": "ftest1:dense_titanium"
+  },
+  "result": "ftest1:hardened_titanium_ingot"
+}

@@ -1,11 +1,15 @@
 {
-  "item.ftest1.titanium": "Titanium",
+  "item.ftest1.titanium_ingot": "Titanium Ingot",
   "item.ftest1.raw_titanium": "Raw Titanium",
+  "item.ftest1.hardened_titanium_ingot": "Hardened Titanium Ingot",
 
 
   "block.ftest1.titanium_block": "Titanium Block",
   "block.ftest1.deepslate_titanium_ore": "Deepslate Titanium Ore",
-
+  "block.ftest1.titanium_ore": "Titanium Ore",
+  "block.ftest1.netherrack_titanium_ore": "Netherrack Titanium Ore",
+  "block.ftest1.end_stone_titanium_ore": "End_stone Titanium Ore",
+  "block.ftest1.dense_titanium": "Dense Titanium",
 
   "creativetab.modded_tab": "Titanium Creative Tab"
 

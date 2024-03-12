@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "ftest1:raw_titanium"
   },
-  "result": "ftest1:titanium"
+  "result": "ftest1:titanium_ingot"
 }

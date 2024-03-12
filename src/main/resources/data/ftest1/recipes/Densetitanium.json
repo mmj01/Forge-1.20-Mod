@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "%%%",
+    "%%%",
+    "%%%"
   ],
   "key": {
-  "#": {"item": "ftest1:titanium_ingot"}
+    "%": {"item": "ftest1:titanium_block"}
   },
 
   "result": {
-    "item": "ftest1:titanium_block"
+    "item": "ftest1:dense_titanium"
   }
 }

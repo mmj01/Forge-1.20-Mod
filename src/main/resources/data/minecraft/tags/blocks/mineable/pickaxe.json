@@ -1,7 +1,11 @@
 {
   "values": [
     "ftest1:titanium_block",
-    "ftest1:deepslate_titanium_ore"
+    "ftest1:deepslate_titanium_ore",
+    "ftest1:titanium_ore",
+    "ftest1:netherrack_titanium_ore",
+    "ftest1:end_stone_titanium_ore",
+    "ftest1:dense_titanium"
   ]
 
 }
