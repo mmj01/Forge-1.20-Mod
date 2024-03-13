@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "%%%",
+    "%#%",
+    "%%%"
+  ],
+  "key": {
+    "#": {"item": "ftest1:binded_titanium_ingot"},
+    "%": {"item": "minecraft:copper_block"}
+  },
+
+  "result": {
+    "item": "ftest1:copper_binded_titanium"
+  }
+}

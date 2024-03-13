@@ -26,6 +26,12 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.END_STONE_TITANIUM_ORE.get());
                 output.accept(ModBlocks.DENSE_TITANIUM.get());
                 output.accept(moditems.HARDENED_TITANIUM_INGOT.get());
+                output.accept(moditems.BINDED_TITANIUM_INGOT.get());
+                output.accept(moditems.IRON_BINDED_TITANIUM.get());
+                output.accept(moditems.COPPER_BINDED_TITANIUM.get());
+                output.accept(moditems.GOLD_BINDED_TITANIUM.get());
+                output.accept(moditems.DIAMOND_BINDED_TITANIUM.get());
+                output.accept(moditems.NETHERITE_BINDED_TITANIUM.get());
             })
             .build());
 

@@ -2,6 +2,13 @@
   "item.ftest1.titanium_ingot": "Titanium Ingot",
   "item.ftest1.raw_titanium": "Raw Titanium",
   "item.ftest1.hardened_titanium_ingot": "Hardened Titanium Ingot",
+  "item.ftest1.binded_titanium_ingot": "Binded Titanium Ingot",
+  "item.ftest1.iron_binded_titanium": "Iron Binded Titanium",
+  "item.ftest1.copper_binded_titanium": "Copper Binded Titanium",
+  "item.ftest1.gold_binded_titanium": "Gold Binded Titanium",
+  "item.ftest1.diamond_binded_titanium": "Diamond Binded Titanium",
+  "item.ftest1.netherite_binded_titanium": "Netherite Binded Titanium",
+
 
 
   "block.ftest1.titanium_block": "Titanium Block",
@@ -10,6 +17,7 @@
   "block.ftest1.netherrack_titanium_ore": "Netherrack Titanium Ore",
   "block.ftest1.end_stone_titanium_ore": "End_stone Titanium Ore",
   "block.ftest1.dense_titanium": "Dense Titanium",
+
 
   "creativetab.modded_tab": "Titanium Creative Tab"
 
